@@ -1,0 +1,43 @@
+body {
+  font-size: 85%; }
+
+.mainHeader {
+  border-top: 5px solid #ec418f; }
+  .mainHeader .logo {
+    text-align: center;
+    background-image: url("../images/logoBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: white; }
+    .mainHeader .logo h1 {
+      height: 0px;
+      padding: 10px 0px 5px 0px; }
+    .mainHeader .logo .tagLineOne {
+      padding: 10px 0px 10px 0px;
+      height: 0px; }
+    .mainHeader .logo .tagLineTwo {
+      height: 0px;
+      padding: 0px 0px 20px 0px; }
+  .mainHeader .mainMenu .dropdown .btn {
+    height: 0px;
+    color: #898a8a;
+    background-color: white;
+    border: white;
+    font-size: 1em;
+    margin: 45px 0px 20px 0px;
+    padding: 0px 10px 0px 10px; }
+  .mainHeader .mainMenu .dropdown .dropdown-menu {
+    background-color: #e4498e;
+    opacity: 0.9;
+    width: auto;
+    font-size: 1em;
+    margin: 0px;
+    width: 25em; }
+    .mainHeader .mainMenu .dropdown .dropdown-menu .dropdown-item {
+      color: white;
+      white-space: normal; }
+    .mainHeader .mainMenu .dropdown .dropdown-menu .dropdown-item:hover {
+      background: #e42891; }
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,78 @@
+
+body{
+	font-size:85%;
+	
+}
+	.mainHeader{
+		border-top:5px solid #ec418f;
+		
+		.logo{
+		
+			text-align: center;
+			background-image:url("../images/logoBackground.jpg");
+		 	background-repeat:no-repeat;
+		 	background-position: center;
+		 	position:relative;
+		 	color:white;
+		
+
+			h1{
+				height:0px;
+				padding:10px 0px 5px 0px;
+
+			}
+
+			.tagLineOne{
+			padding:10px 0px 10px 0px;
+			height:0px;
+
+			}
+
+			.tagLineTwo{
+			height:0px;
+			padding:0px 0px 20px 0px;
+
+			}
+
+		}
+
+		.mainMenu{
+
+			.dropdown{
+				.btn{
+					height:0px;
+					color:#898a8a;
+					background-color:white;
+					border:white;
+					font-size:1em;
+					margin:45px 0px 20px 0px;
+					padding:0px 10px 0px 10px;
+				}	
+
+				.dropdown-menu{
+					background-color:#e4498e;
+					opacity: 0.9;
+					width:auto;
+					font-size:1em;
+					margin:0px;
+					width:25em;
+				
+
+					.dropdown-item{
+						color:white;
+						white-space:normal;
+
+					}
+
+					.dropdown-item:hover{
+						background:#e42891;
+						
+					}
+
+				}
+
+				
+			}
+
+		}
+	}
