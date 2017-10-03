@@ -39,5 +39,7 @@ body {
       white-space: normal; }
     .mainHeader .mainMenu .dropdown .dropdown-menu .dropdown-item:hover {
       background: #e42891; }
+  .mainHeader .socialMediaLinks img {
+    margin: 40px 0px 20px 0px; }
 
 /*# sourceMappingURL=output.css.map */
