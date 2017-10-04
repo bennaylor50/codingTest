@@ -1,0 +1,78 @@
+//css for the news carousel
+
+.news{
+	color:white;
+	background:#f37f2c;
+	margin:0em 5em 0em 5em;
+	padding:5em 10em 0em 10em;
+
+	h1{
+		padding:0.5em 0em 1em 0.5em;
+	}
+
+	.item{
+		color:black;
+		background:white;
+
+		h4{
+			font-size: 1em;
+			padding:2em;
+		}
+	}
+}
+
+.owl-carousel{
+	position:relative;
+
+	.owl-nav{
+		padding:1em;
+		
+		.owl-prev, .owl-next{
+			background:#f37f2c;
+			padding:0em 2em 0em 2em;
+		}
+
+		.fa{
+			color:#f6a367;
+			padding:0.3em;
+			border:2px solid #f6a367;
+			border-radius:2em;
+		}
+
+		.owl-prev:hover, .owl-next:hover{
+			background:#f37f2c;
+			padding:0em 2em 0em 2em;
+			
+			.fa{
+				border:2px solid #642d8c;
+				background:#642d8c;
+				border-radius:2.0em;
+			}
+		}
+	}
+
+	.owl-dots{
+		position:absolute;
+		top:88%;
+		left:48%;
+		
+		.owl-dot:hover span, .owl-dot.active span{
+			background:#642d8c;
+		}
+	}
+}
+
+.viewAll{
+	text-align:center;
+	background:#f37f2c;
+	margin:0em 5em 0em 5em;
+	padding:3em;
+	
+	.view{
+		padding:1em 1.5em 1em 1.5em;
+		background:#642d8c;
+		color:white;
+		border-radius:2em;
+	}
+}
+	

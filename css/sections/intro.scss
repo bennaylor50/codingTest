@@ -1,9 +1,8 @@
-
+//css for the welcome messages
 
 .intro{
 	margin:5em 12em 5em 12em;
 	
-
 	.welcomeMessage{
 
 		h1{
@@ -16,9 +15,11 @@
 			font-size:1.2em;
 			padding:0em 3em 0em 0em;
 		}
+
 		.secondParagraph{
 			padding:0em 0em 4em 0em;
 		}
+
 		.readMore{
 			padding:1em 2em 1em 2em;
 			background-color:#e4498e;
@@ -40,6 +41,7 @@
 				left:10%;
 				color:white;
 			}
+
 			.lineTwo{
 				position:absolute;
 				top:50%;
@@ -47,8 +49,5 @@
 				color:white;
 			}
 		}
-		
 	}
-
-	
 }

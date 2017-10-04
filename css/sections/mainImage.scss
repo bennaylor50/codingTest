@@ -1,30 +1,33 @@
+//css for the main image.
+
 .jumbotron{
-	margin:0px 50px 0px 50px;
-	padding:0px;
+	margin:0em 5em 0em 5em;
+	padding:0em;
 	background-image:url("../images/mainImage.jpg");
  	background-repeat:no-repeat;
  	background-position:center;
  	color:white;
-
+ 	
  	.messageBar{
  		background-color:#e4498e;
  		opacity: 0.9;
- 		padding:10px 0px 10px 130px;
+ 		padding:1em 0em 1em 10em;
  	}
 
- 	h3{
-		text-align:center;
- 		padding-top:500px;
- 		font-size:4em;
- 	}
+	.overlay{
+			text-align:center;
+	 		padding-bottom:1em;
+	 		background: linear-gradient(to bottom, rgba(113,114,114,0.0) 100%,rgba(113,114,114,0.5) 0%);
+	 		
+	 	h3{
+	 		margin-top:9em;
+	 		font-size:4em;
+	 		padding-bottom:0.3em;
+	 	}
 
- 	h4{
-		text-align:center;
-		font-size:1em;
- 	}
-
- 	.downArrow{
- 		text-align:center;
- 	}
-
+	 	h4{
+			font-size:1em;
+			padding-bottom:0.7em;
+	 	}
+	}
 }
