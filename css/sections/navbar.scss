@@ -1,86 +1,85 @@
 
 body{
 	font-size:85%;
-	
 }
-	.mainHeader{
-		border-top:5px solid #ec418f;
-		
-		.logo{
-		
-			text-align: center;
-			background-image:url("../images/logoBackground.jpg");
-		 	background-repeat:no-repeat;
-		 	background-position: center;
-		 	position:relative;
-		 	color:white;
-		
+.mainHeader{
+	border-top:1em solid #ec418f;
+	
+	.logo{
+	
+		text-align: center;
+		background-image:url("../images/logoBackground.jpg");
+	 	background-repeat:no-repeat;
+	 	background-position:center;
+	 	color:white;
 
-			h1{
-				height:0px;
-				padding:10px 0px 5px 0px;
 
-			}
+		h1{
+			height:0em;
+			padding:0.3em 0em 0.6em 0em;
+		}
 
-			.tagLineOne{
-			padding:10px 0px 10px 0px;
-			height:0px;
-
-			}
-
-			.tagLineTwo{
-			height:0px;
-			padding:0px 0px 20px 0px;
-
-			}
+		.tagLineOne{
+		padding:0.5em 0em 0.8em 0em;
+		height:0em;
 
 		}
 
-		.mainMenu{
-
-			.dropdown{
-				.btn{
-					height:0px;
-					color:#898a8a;
-					background-color:white;
-					border:white;
-					font-size:1em;
-					margin:45px 0px 20px 0px;
-					padding:0px 10px 0px 10px;
-				}	
-
-				.dropdown-menu{
-					background-color:#e4498e;
-					opacity: 0.9;
-					width:auto;
-					font-size:1em;
-					margin:0px;
-					width:25em;
-				
-
-					.dropdown-item{
-						color:white;
-						white-space:normal;
-
-					}
-
-					.dropdown-item:hover{
-						background:#e42891;
-						
-					}
-
-				}
-				
-			}
+		.tagLineTwo{
+		height:0em;
+		padding:0em 0em 1em 0em;
 
 		}
-			.socialMediaLinks{
-				img{
 
-				margin:40px 0px 20px 0px;
-
-			}
-			}
-
-		
 	}
+
+	.mainMenu{
+		
+		.dropdown{
+			padding:3.5em 0em 2em 0em;
+			.btn{
+				color:#898a8a; //grey
+				background-color:white;
+				border:white;
+				font-size:1em;
+				padding:0em 1em 0em 1em;
+			}
+
+			.dropdown-menu{
+				background-color:#e4498e;//pink
+				opacity: 0.9;
+				font-size:1em;
+				margin:0px;
+				width:25em;
+				top:100px;
+				left:100px;
+
+			}
+
+			button:focus{
+				color:#e42891;
+				box-shadow:0px 0px 0px white;
+			}
+
+			.dropdown-item{
+				color:white;
+				white-space:normal;
+
+			}
+
+			.dropdown-item:hover{
+				background:#e42891;
+				
+			}
+			
+		}
+
+	}
+
+	.socialMediaLinks{
+			margin:40px 0px 20px 0px;
+
+	}
+}
+
+

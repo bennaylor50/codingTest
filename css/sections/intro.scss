@@ -1,0 +1,54 @@
+
+
+.intro{
+	margin:5em 12em 5em 12em;
+	
+
+	.welcomeMessage{
+
+		h1{
+			padding:0em 0em 1em 0em;
+			color:#e4498e;
+			font-size:3.5em;
+		}
+
+		.firstParagraph{
+			font-size:1.2em;
+			padding:0em 3em 0em 0em;
+		}
+		.secondParagraph{
+			padding:0em 0em 4em 0em;
+		}
+		.readMore{
+			padding:1em 2em 1em 2em;
+			background-color:#e4498e;
+			color:white;
+			border-radius:2em;
+		}
+	}
+
+	.buttonLinks{
+		width:20em;
+
+		.image{
+			position:relative;
+			padding:0.5em 0em 0.5em 0em;
+
+			.lineOne{
+				position:absolute;
+				top:40%;
+				left:10%;
+				color:white;
+			}
+			.lineTwo{
+				position:absolute;
+				top:50%;
+				left:10%;
+				color:white;
+			}
+		}
+		
+	}
+
+	
+}
