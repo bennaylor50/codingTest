@@ -152,12 +152,12 @@ body {
     .owl-news .owl-dots .owl-dot:hover span, .owl-news .owl-dots .owl-dot.active span {
       background: #642d8c; }
 
-.viewAll {
+.viewAllNews {
   text-align: center;
   background: #f37f2c;
   margin: 0em 5em 0em 5em;
   padding: 3em; }
-  .viewAll .view {
+  .viewAllNews .view {
     padding: 1em 1.5em 1em 1.5em;
     background: #642d8c;
     color: white;
@@ -206,5 +206,14 @@ body {
       left: 48%; }
       .calender .owl-calender .owl-dots .owl-dot:hover span, .calender .owl-calender .owl-dots .owl-dot.active span {
         background: #642d8c; }
+  .calender .viewAllCalender {
+    text-align: center;
+    margin: 0em 5em 0em 5em;
+    padding: 3em; }
+    .calender .viewAllCalender .view {
+      padding: 1em 1.5em 1em 1.5em;
+      background: #642d8c;
+      color: white;
+      border-radius: 2em; }
 
 /*# sourceMappingURL=output.css.map */
