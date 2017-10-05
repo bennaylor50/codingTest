@@ -1,10 +1,11 @@
 //css for the welcome messages
 
 .intro{
-	margin:5em 12em 5em 12em;
+	margin:5em 3em 5em 5em;
+	padding:0em 0em 0em 11em;
 	
 	.welcomeMessage{
-
+		padding:0em 2em 0em 0em;
 		h1{
 			padding:0em 0em 1em 0em;
 			color:#e4498e;
@@ -30,6 +31,7 @@
 
 	.buttonLinks{
 		width:20em;
+		padding-left:5em;
 
 		.image{
 			position:relative;

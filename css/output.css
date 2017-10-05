@@ -77,23 +77,27 @@ body {
       padding-bottom: 0.7em; }
 
 .intro {
-  margin: 5em 12em 5em 12em; }
-  .intro .welcomeMessage h1 {
-    padding: 0em 0em 1em 0em;
-    color: #e4498e;
-    font-size: 3.5em; }
-  .intro .welcomeMessage .firstParagraph {
-    font-size: 1.2em;
-    padding: 0em 3em 0em 0em; }
-  .intro .welcomeMessage .secondParagraph {
-    padding: 0em 0em 4em 0em; }
-  .intro .welcomeMessage .readMore {
-    padding: 1em 2em 1em 2em;
-    background-color: #e4498e;
-    color: white;
-    border-radius: 2em; }
+  margin: 5em 3em 5em 5em;
+  padding: 0em 0em 0em 11em; }
+  .intro .welcomeMessage {
+    padding: 0em 2em 0em 0em; }
+    .intro .welcomeMessage h1 {
+      padding: 0em 0em 1em 0em;
+      color: #e4498e;
+      font-size: 3.5em; }
+    .intro .welcomeMessage .firstParagraph {
+      font-size: 1.2em;
+      padding: 0em 3em 0em 0em; }
+    .intro .welcomeMessage .secondParagraph {
+      padding: 0em 0em 4em 0em; }
+    .intro .welcomeMessage .readMore {
+      padding: 1em 2em 1em 2em;
+      background-color: #e4498e;
+      color: white;
+      border-radius: 2em; }
   .intro .buttonLinks {
-    width: 20em; }
+    width: 20em;
+    padding-left: 5em; }
     .intro .buttonLinks .image {
       position: relative;
       padding: 0.5em 0em 0.5em 0em; }
@@ -158,5 +162,23 @@ body {
     background: #642d8c;
     color: white;
     border-radius: 2em; }
+
+.calender {
+  margin: 0em 5em 0em 5em;
+  padding: 5em 10em 0em 10em;
+  color: #642d8c; }
+  .calender h1 {
+    padding: 0.5em 0em 1em 0.5em; }
+  .calender .item h3 {
+    display: inline;
+    font-size: 3em;
+    padding: 0em 0.5em 0.5em 0.5em; }
+  .calender .item h4 {
+    display: inline;
+    color: #4e5050; }
+  .calender .item .entry {
+    color: #ced0d0;
+    width: 15em;
+    padding: 1em 0em 0em 1em; }
 
 /*# sourceMappingURL=output.css.map */
