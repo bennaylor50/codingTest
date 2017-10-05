@@ -29,12 +29,56 @@
 
 			color:#ced0d0;
 			width: 15em;
-			padding:1em 0em 0em 1em ;
+			padding:1em 0em 0em 0em ;
 		}
 
 		
 	}
-		
+
+	.owl-calender{
 	
+		position:relative;
+
+		.owl-nav{
+			padding:1em;
+			
+			.owl-prev, .owl-next{
+				background:white;
+				padding:0em 2em 0em 2em;
+			}
+
+			.fa{
+				color:#ced0d0;
+				padding:0.3em;
+				border:2px solid #ced0d0;
+				border-radius:2em;
+			}
+
+			.owl-prev:hover, .owl-next:hover{
+				background:white;
+				padding:0em 2em 0em 2em;
+				
+				.fa{
+					border:2px solid #642d8c;//purple
+					background:white;//purple
+					border-radius:2.0em;
+					color:#642d8c;
+				}
+			}
+		}
+
+		.owl-dots{
+			position:absolute;
+			top:88%;
+			left:48%;
+			
+			.owl-dot:hover span, .owl-dot.active span{
+				background:#642d8c;
+			}
+		}
+	
+	}
+	
+
 
 }

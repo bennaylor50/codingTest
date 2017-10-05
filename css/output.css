@@ -126,30 +126,30 @@ body {
       font-size: 1em;
       padding: 2em; }
 
-.owl-carousel {
+.owl-news {
   position: relative; }
-  .owl-carousel .owl-nav {
+  .owl-news .owl-nav {
     padding: 1em; }
-    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    .owl-news .owl-nav .owl-prev, .owl-news .owl-nav .owl-next {
       background: #f37f2c;
       padding: 0em 2em 0em 2em; }
-    .owl-carousel .owl-nav .fa {
+    .owl-news .owl-nav .fa {
       color: #f6a367;
       padding: 0.3em;
       border: 2px solid #f6a367;
       border-radius: 2em; }
-    .owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
+    .owl-news .owl-nav .owl-prev:hover, .owl-news .owl-nav .owl-next:hover {
       background: #f37f2c;
       padding: 0em 2em 0em 2em; }
-      .owl-carousel .owl-nav .owl-prev:hover .fa, .owl-carousel .owl-nav .owl-next:hover .fa {
+      .owl-news .owl-nav .owl-prev:hover .fa, .owl-news .owl-nav .owl-next:hover .fa {
         border: 2px solid #642d8c;
         background: #642d8c;
         border-radius: 2.0em; }
-  .owl-carousel .owl-dots {
+  .owl-news .owl-dots {
     position: absolute;
     top: 88%;
     left: 48%; }
-    .owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span {
+    .owl-news .owl-dots .owl-dot:hover span, .owl-news .owl-dots .owl-dot.active span {
       background: #642d8c; }
 
 .viewAll {
@@ -179,6 +179,32 @@ body {
   .calender .item .entry {
     color: #ced0d0;
     width: 15em;
-    padding: 1em 0em 0em 1em; }
+    padding: 1em 0em 0em 0em; }
+  .calender .owl-calender {
+    position: relative; }
+    .calender .owl-calender .owl-nav {
+      padding: 1em; }
+      .calender .owl-calender .owl-nav .owl-prev, .calender .owl-calender .owl-nav .owl-next {
+        background: white;
+        padding: 0em 2em 0em 2em; }
+      .calender .owl-calender .owl-nav .fa {
+        color: #ced0d0;
+        padding: 0.3em;
+        border: 2px solid #ced0d0;
+        border-radius: 2em; }
+      .calender .owl-calender .owl-nav .owl-prev:hover, .calender .owl-calender .owl-nav .owl-next:hover {
+        background: white;
+        padding: 0em 2em 0em 2em; }
+        .calender .owl-calender .owl-nav .owl-prev:hover .fa, .calender .owl-calender .owl-nav .owl-next:hover .fa {
+          border: 2px solid #642d8c;
+          background: white;
+          border-radius: 2.0em;
+          color: #642d8c; }
+    .calender .owl-calender .owl-dots {
+      position: absolute;
+      top: 88%;
+      left: 48%; }
+      .calender .owl-calender .owl-dots .owl-dot:hover span, .calender .owl-calender .owl-dots .owl-dot.active span {
+        background: #642d8c; }
 
 /*# sourceMappingURL=output.css.map */
