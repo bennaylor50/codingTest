@@ -1,8 +1,9 @@
 body {
-  font-size: 85%; }
+  font-size: 70%; }
 
 .mainHeader {
-  border-top: 1em solid #ec418f; }
+  border-top: 1em solid #ec418f;
+  margin: 0em 5em 0em 5em; }
   .mainHeader .logo {
     text-align: center;
     background-image: url("../images/logoBackground.jpg");
@@ -59,7 +60,9 @@ body {
   background-image: url("../images/mainImage.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  color: white; }
+  background-size: cover;
+  color: white;
+  max-width: 100%; }
   .jumbotron .messageBar {
     background-color: #e4498e;
     opacity: 0.9;
@@ -77,9 +80,10 @@ body {
       padding-bottom: 0.7em; }
 
 .intro {
-  padding: 4em 8em 4em 9em; }
+  padding: 5em 10em 5em 10em;
+  margin: 0em 5em 0em 5em; }
   .intro .welcomeMessage {
-    padding: 0em 2em 0em 0em; }
+    padding: 0em 3em 0em 0em; }
     .intro .welcomeMessage h1 {
       padding: 0em 0em 1em 0em;
       color: #e4498e;
@@ -88,25 +92,30 @@ body {
       font-size: 1.2em;
       padding: 0em 3em 0em 0em; }
     .intro .welcomeMessage .secondParagraph {
-      padding: 0em 0em 4em 0em; }
+      padding: 0em 3em 4em 0em;
+      font-size: 1.0em; }
     .intro .welcomeMessage .readMore {
       padding: 1em 2em 1em 2em;
       background-color: #e4498e;
       color: white;
       border-radius: 2em; }
   .intro .buttonLinks {
-    width: 18em; }
+    width: 20%;
+    display: block;
+    float: right; }
     .intro .buttonLinks .image {
-      position: relative;
-      padding: 0.5em 0em 0.5em 0em; }
+      position: relative; }
+      .intro .buttonLinks .image img {
+        padding-bottom: 1em;
+        width: 18em; }
       .intro .buttonLinks .image .lineOne {
         position: absolute;
-        top: 40%;
+        top: -100%;
         left: 10%;
         color: white; }
       .intro .buttonLinks .image .lineTwo {
         position: absolute;
-        top: 50%;
+        top: 10%;
         left: 10%;
         color: white; }
 
@@ -213,5 +222,81 @@ body {
       background: #642d8c;
       color: white;
       border-radius: 2em; }
+
+@media (min-width: 1500px) {
+  body {
+    font-size: 100%; }
+
+  .container {
+    max-width: 2000px; } }
+@media (max-width: 1500px) {
+  body {
+    font-size: 85%; } }
+@media (max-width: 768px) {
+  body {
+    font-size: 60%; }
+
+  .mainHeader, .jumbotron, .news, .viewAllNews {
+    text-align: center; } }
+@media (max-width: 576px) {
+  body {
+    font-size: 80%; }
+
+  .mainHeader, .jumbotron, .intro, .news, .viewAllNews, .calender {
+    margin: 0px;
+    padding: 0px;
+    text-align: center; }
+
+  .mainHeader .mainMenu .dropdown {
+    padding: 1em 0em 0em 0em;
+    width: 100%;
+    font-size: 1.5em; }
+  .mainHeader .mainMenu .btn {
+    padding: 0.0em 1em 0.5em 1em;
+    text-align: center; }
+
+  .jumbotron .messageBar {
+    padding: 1em 2em 1em 2em; }
+  .jumbotron .overlay {
+    padding: 2em; }
+
+  .intro {
+    padding: 2em; }
+    .intro .welcomeMessage {
+      padding: 1em 0em 3em 0em; }
+      .intro .welcomeMessage h1 {
+        padding-bottom: 0.5em; }
+      .intro .welcomeMessage .firstParagraph {
+        padding: 0px;
+        font-size: 1.5em; }
+      .intro .welcomeMessage .secondParagraph {
+        padding: 0em 0em 1em 0em;
+        font-size: 1.5em; }
+    .intro .buttonLinks {
+      width: 100%; }
+      .intro .buttonLinks .image img {
+        width: auto;
+        padding: 1em 0em 1em 0em; }
+
+  .news {
+    padding: 0em 3em 0em 3em; }
+    .news h1 {
+      padding: 1em 0em 1em 0em; }
+    .news .owl-news .owl-dots {
+      top: 100%;
+      left: 26.5%; }
+
+  .viewAllNews {
+    padding: 4em 0em 3em 0em; }
+
+  .calender {
+    text-align: center; }
+    .calender .item .entry {
+      width: auto; }
+    .calender .owl-calender .owl-dots {
+      top: 100%;
+      left: 30%; }
+    .calender .viewAllCalender {
+      padding: 4em 0em 10em 0em; } }
 
 /*# sourceMappingURL=output.css.map */

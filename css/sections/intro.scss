@@ -1,12 +1,15 @@
 //css for the welcome messages
 
 .intro{
+	
+	padding:5em 10em 5em 10em;
+	margin:0em 5em 0em 5em;
 
-	padding:4em 8em 4em 9em;
 
 	
 	.welcomeMessage{
-		padding:0em 2em 0em 0em;
+		padding:0em 3em 0em 0em;
+
 		h1{
 			padding:0em 0em 1em 0em;
 			color:#e4498e;
@@ -19,7 +22,8 @@
 		}
 
 		.secondParagraph{
-			padding:0em 0em 4em 0em;
+			padding:0em 3em 4em 0em;
+			font-size:1.0em;
 		}
 
 		.readMore{
@@ -31,27 +35,39 @@
 	}
 
 	.buttonLinks{
-		width:18em;
-		//padding-left:7em;
-
-		.image{
-			position:relative;
-			padding:0.5em 0em 0.5em 0em;
+		width:20%;
+		display:block;
+		float:right;
+	
+		
 			
+			.image{
+				position:relative;
 
-			.lineOne{
-				position:absolute;
-				top:40%;
-				left:10%;
-				color:white;
+			img{
+				padding-bottom:1em;
+				width:18em;
 			}
+				
+			
+				.lineOne{
+					position:absolute;
+					top:-100%;
+					left:10%;
+					color:white;
+				}
 
-			.lineTwo{
-				position:absolute;
-				top:50%;
-				left:10%;
-				color:white;
+				.lineTwo{
+					position:absolute;
+					top:10%;
+					left:10%;
+					color:white;
+				}
 			}
-		}
+		
 	}
 }
+
+
+
+
